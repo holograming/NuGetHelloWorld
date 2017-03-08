@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>NuGetHelloWorldPackage</id>
+    <version>0.0.8</version>
+    <authors>Devman</authors>
+    <owners>Devman</owners>
+    <licenseUrl>https://github.com/holograming/NuGetHelloWorld</licenseUrl>
+    <projectUrl>https://github.com/holograming/NuGetHelloWorld</projectUrl>
+    <iconUrl>https://github.com/holograming/NuGetHelloWorld</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is Test NuGet Package.</description>
+    <releaseNotes>This is Final Release...</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Nuget Sample, Package Test</tags>
+  </metadata>
+  <files>
+	<file src="build\native\*.*" target="build\native" />
+	<file src="lib\native\Include\*.*" target="lib\native\Include" />
+	<file src="lib\native\x64\*.*" target="lib\native\x64" />
+	<file src="lib\native\x86\*.*" target="lib\native\x86" />
+  </files>
+</package>
