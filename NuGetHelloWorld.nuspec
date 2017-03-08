@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<package >
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>NuGetHelloWorldPackage</id>
     <version>0.0.5</version>
@@ -15,9 +15,9 @@
     <tags>Nuget Sample, Package Test</tags>
   </metadata>
   <files>
-	<file src="Build\native\**" target="build" />
-	<file src="Lib\native\Include\**" target="lib" />
-	<file src="Lib\native\x64\**" target="lib" />
-	<file src="Lib\native\x86\**" target="lib" />
+	<file src="Build\native\*.*" target="build" />
+	<file src="Lib\native\Include\*.*" target="lib" />
+	<file src="Lib\native\x64\*.*" target="lib" />
+	<file src="Lib\native\x86\*.*" target="lib" />
   </files>
 </package>
