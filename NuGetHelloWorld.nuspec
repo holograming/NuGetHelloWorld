@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>NuGetHelloWorldPackage</id>
-    <version>0.0.3</version>
+    <version>0.0.5</version>
     <authors>Devman</authors>
     <owners>Devman</owners>
     <licenseUrl>https://github.com/holograming/NuGetHelloWorld</licenseUrl>
@@ -15,7 +15,9 @@
     <tags>Nuget Sample, Package Test</tags>
   </metadata>
   <files>
-	<file src="build\**" target="build" />
-	
+	<file src="Build\native\**" target="build" />
+	<file src="Lib\native\Include\**" target="lib" />
+	<file src="Lib\native\x64\**" target="lib" />
+	<file src="Lib\native\x86\**" target="lib" />
   </files>
 </package>
