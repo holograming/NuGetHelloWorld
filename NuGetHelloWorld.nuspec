@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NuGetHelloWorldPackage</id>
+    <version>0.0.3</version>
+    <authors>Devman</authors>
+    <owners>Devman</owners>
+    <licenseUrl>https://github.com/holograming/NuGetHelloWorld</licenseUrl>
+    <projectUrl>https://github.com/holograming/NuGetHelloWorld</projectUrl>
+    <iconUrl>https://github.com/holograming/NuGetHelloWorld</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is Test NuGet Package.</description>
+    <releaseNotes>This is Final Release...</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Nuget Sample, Package Test</tags>
+  </metadata>
+  <files>
+	<file src="build\**" target="build" />
+	
+  </files>
+</package>
